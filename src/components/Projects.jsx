@@ -1,4 +1,3 @@
-// src/components/Projects.jsx
 import React from 'react';
 import './Projects.css';
 
@@ -8,27 +7,19 @@ const Projects = () => {
             <h2>Projects</h2>
 
             <div className="project-card">
-                <h3>Pizzeria Database</h3>
+                <h3>BaristApp</h3>
                 <p>
-                    A relational database system designed to manage products, orders, and customer data for a small pizza shop.
+                    A digital platform to help small cafés and restaurants manage orders, inventory, and staff easily and affordably.
+                    Designed for non-technical users, BaristApp simplifies operations with an intuitive interface and accessible pricing.
                 </p>
-                <a href="#" className="project-link disabled">Link coming soon</a>
-            </div>
-
-            <div className="project-card">
-                <h3>Web Ordering App</h3>
-                <p>
-                    A simple yet functional React frontend that allows customers to place pizza orders with real-time interaction.
-                </p>
-                <a href="#" className="project-link disabled">Link coming soon</a>
-            </div>
-
-            <div className="project-card">
-                <h3>Rewards API</h3>
-                <p>
-                    An API built with Node.js and Express to handle customer reward points, consumption history, and prize redemption logic.
-                </p>
-                <a href="#" className="project-link disabled">Link coming soon</a>
+                <a 
+                    href="/BaristApp_PitchDeck.pdf" 
+                    className="project-link" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    View Pitch Deck
+                </a>
             </div>
         </section>
     );
